@@ -132,3 +132,6 @@ dmypy.json
 .env
 config.py
 config*
+
+# Exclude large ratings file
+ratings.csv
