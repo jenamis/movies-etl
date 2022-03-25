@@ -1,7 +1,7 @@
 # Movie Data ETL
 
 ## Overview
-The purpose of this project was to create a Python script using Pandas in Jupyter Notebook to automate the extract, transform, and load (ETL) process for Wikipedia and Kaggle movie data and MovieLens ratings data (via Kaggle) in order to create a PostgreSQL database of cleaned and merged movie data and ratings data. Three raw data files were used for this project: [Wikipedia JSON file](Resources/Wikipedia-movies.json), [Kaggle metadata CSV file](Resources/movies_metadata.csv), and MovieLens ratings CSV file (not added to GitHub due to very large file size). 
+The purpose of this project was to create a Python script using Pandas in Jupyter Notebook to automate the extract, transform, and load (ETL) process for Wikipedia and Kaggle movie data and MovieLens ratings data (via Kaggle) in order to create a PostgreSQL database of cleaned and merged movie data and ratings data. Three raw data files were used for this project: [Wikipedia JSON file](Resources/wikipedia-movies.json), [Kaggle metadata CSV file](Resources/movies_metadata.csv), and MovieLens ratings CSV file (not added to GitHub due to very large file size). 
 
 ## Project Components
 
