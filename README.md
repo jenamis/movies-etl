@@ -15,11 +15,13 @@ In the [second script](ETL_clean_wiki_movies.ipynb), the function was updated to
 In the [third script](ETL_clean_kaggle_data.ipynb), the function was updated to additionally clean the Kaggle movie data, merge the Wikipedia and Kaggle movie data in a clean movies DataFrame, and transform and merge the ratings data with the clean movie data in a DataFrame.
 
 ### Create Movie Database
-In the [final script](ETL_create_database.ipynb), the function was updated to additionally add the cleaned and merged movie data and the raw MovieLens ratings CSV data to a PostgreSQL database. Screenshots of queries confirming the successful creation and number of rows of the movies and ratings tables are shown below. 
+In the [final script](ETL_create_database.ipynb), the function was updated to add the cleaned and merged movie data and the raw MovieLens ratings CSV data to a PostgreSQL database. Screenshots of queries confirming the successful creation and number of rows of the movies and ratings database tables are shown below. 
 
 **Movies Table Row Count**
+
  ![img1]( Resources/Movies_Query.png)
 
 
 **Ratings Table Row Count**
+
  ![img2]( Resources/Ratings_Query.png)
